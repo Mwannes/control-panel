@@ -1,0 +1,31 @@
+body{
+background-image:url("original.jpg");
+margin:0;
+padding:0;
+}
+.dir{
+	margin-top:200px;
+	width:250px;
+	height:150px;
+	margin-left:200px;
+	float:center;
+	font-size:15px;
+}
+.dir th,td{
+border-collapse: collapse;
+border-radius:15px;
+}
+ht,td{
+	padding:20px;
+}
+.dir tr:nth-child(1){
+	background-color:#BDB76B;
+	color:black;
+	text-align:center;
+}
+.dir tr:nth-child(2){
+	background-color:#ADD8E6;
+	color:#FF0000;
+	font-size:25px;
+	text-align:center;
+}
